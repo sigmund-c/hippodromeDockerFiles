@@ -1,0 +1,7 @@
+{"infer":"infer",
+  "options":["--racerdfix-only", "--starvation"],
+  "json_path": "./infer-out/",
+  "target_options": ["--", "javac", "Main.java"],
+  "prio_files":  [],
+  "iterations": 6
+}
