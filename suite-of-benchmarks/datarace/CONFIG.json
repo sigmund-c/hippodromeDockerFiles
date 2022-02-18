@@ -1,7 +1,7 @@
 {"infer":"infer",
   "options":["--racerdfix-only", "--starvation"],
   "json_path": "./infer-out/",
-  "target_options": ["--", "javac", "CustomerInfo.java", "Account.java"],
+  "target_options": ["--", "javac", "CustomerInfo.java", "-cp", "/usr/local/hippodromeDockerFiles-main/annotation.jar", "Account.java"],
   "prio_files":  [],
   "iterations": 1
 }

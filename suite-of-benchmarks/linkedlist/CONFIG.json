@@ -1,7 +1,7 @@
 {"infer":"infer",
   "options":["--racerdfix-only", "--starvation"],
   "json_path": "./infer-out/",
-  "target_options": ["--", "javac", "MyLinkedList.java",
+  "target_options": ["--", "javac", "-cp", "/usr/local/hippodromeDockerFiles-main/annotation.jar", "MyLinkedList.java",
     "BugTester.java", "MyLinkedListItr.java",
     "MyListBuilder.java", "MyListNode.java"],
   "prio_files":  [],
